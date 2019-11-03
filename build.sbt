@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainers := "Puneeth <devops@pslinxs>"
+packageSummary := "My customer package"
+packageDescription := "Package"
